@@ -41,5 +41,5 @@ jobs:
           context: .
           push: true
           tags: |
+            ghcr.io/pentaledger/pentaledger-console:latest
             ghcr.io/pentaledger/pentaledger-console:${{ env.TAG }}
-            ghcr.io/pentaledger/pentaledger-console:latest  # Change to your registry and image name
