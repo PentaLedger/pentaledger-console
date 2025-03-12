@@ -24,3 +24,13 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Building docker image
+```
+docker build -t pentaledger-console .
+```
+
+## Running docker image
+```
+docker run -p 3000:3000 pentaledger-console
+```
